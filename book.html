@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Book a Meeting</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+
+  <div class="dashboard">
+     <img src="Icons/Logo.png" alt="Wellbeing Logo" class="logo" />
+    <h1 class="greeting">Book a Meeting</h1>
+
+    <p class="prompt">Select a day:</p>
+    <div class="date-options">
+      <button>Mon</button>
+      <button>Tue</button>
+      <button>Wed</button>
+      <button>Thu</button>
+      <button>Fri</button>
+    </div>
+
+    <p class="prompt">Select a time:</p>
+    <div class="time-options">
+      <button>10:00</button>
+      <button>11:00</button>
+      <button>13:00</button>
+      <button>14:30</button>
+    </div>
+
+    <button class="btn-primary" onclick="confirmBooking()">Confirm Booking</button>
+  </div>
+
+  <!-- Bottom Navigation -->
+  <nav class="bottom-nav">
+    <a href="wellbeing.html"><img src="icons/wellbeing.png" alt="Wellbeing" /></a>
+    <a href="book.html"><img src="icons/booking.png" alt="Book" /></a>
+    <a href="dashboard.html"><img src="icons/home.png" alt="Home" /></a>
+    <a href="profile.html"><img src="icons/settings.png" alt="Settings" /></a>
+  </nav>
+
+  <script>
+    function confirmBooking() {
+      alert("Meeting booked successfully!");
+    }
+  </script>
+</body>
+</html>

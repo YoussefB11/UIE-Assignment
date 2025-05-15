@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wellbeing</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="scrollable-content">
+    <div class="dashboard">
+      <img src="icons/logo.png" alt="Logo" class="logo" />
+      <h1 class="greeting">Take a Deep Breath</h1>
+
+      <div class="quote-box">
+        <p>"You alone are enough. You have nothing to prove to anybody." - Maya Angelou </p>
+      </div>
+
+      <div class="quote-box">
+        <p>"Healing takes time, and asking for help is a courageous step." - Mariska Hargitay </p>
+      </div>
+
+      <div class="quote-box">
+        <p>"You are braver than you believe, stronger than you seem, and smarter than you think." - A.A. Milne </p>
+      </div>
+
+      <button class="btn-primary" onclick="getHelp()">Get Help</button>
+    </div>
+  </main>
+
+  <nav class="bottom-nav">
+    <a href="wellbeing.html"><img src="icons/wellbeing.png" alt="Wellbeing" /></a>
+    <a href="book.html"><img src="icons/booking.png" alt="Book" /></a>
+    <a href="dashboard.html"><img src="icons/home.png" alt="Home" /></a>
+    <a href="profile.html"><img src="icons/settings.png" alt="Settings" /></a>
+  </nav>
+
+  <script>
+    function getHelp() {
+      window.location.href = "book.html";
+    }
+  </script>
+</body>
+</html>
